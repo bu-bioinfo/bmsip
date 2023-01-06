@@ -4,6 +4,7 @@ show_downloads: false
 lsi: false
 safe: true
 source: site/
+ignore_theme_config: true
 incremental: false
 highlighter: rouge
 exclude: [ util, analysis ]
