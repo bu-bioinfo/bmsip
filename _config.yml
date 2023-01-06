@@ -3,11 +3,16 @@ title: "BMSIP - BU Bioinformatics Masters Summer Internship Program"
 show_downloads: false
 lsi: false
 safe: true
-source: site/
+source: .
 ignore_theme_config: true
 incremental: false
 highlighter: rouge
-exclude: [ util, analysis ]
+exclude:
+  - asset_sources
+  - Gemfile
+  - Gemfile.lock
+  - serve.sh
+  - readme.txt
 gist:
   noscript: false
 kramdown:
