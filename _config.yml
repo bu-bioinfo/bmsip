@@ -13,6 +13,7 @@ exclude:
   - Gemfile.lock
   - serve.sh
   - readme.txt
+  - .idea
 gist:
   noscript: false
 kramdown:
@@ -28,17 +29,24 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-relative-links
   - jekyll-theme-dinky
+collections:
+  news:
+    output: true
+    permalink: /:path
+  projects:
+    output: true
+    permalink: /:path
 defaults:
   -
     scope:
-      path: "_lectures"
+      path: "_news"
     values:
-      layout: "lecture"
+      layout: "post"
   -
     scope:
-      path: "_assignments"
+      path: "_projects"
     values:
-      layout: "assignment"
+      layout: "project"
   -
     scope:
         path: ""
