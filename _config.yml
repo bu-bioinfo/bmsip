@@ -1,4 +1,5 @@
-url: https://bu-bioinfo.github.io/bmsip
+url: https://bu-bioinfo.github.io
+baseurl: /bmsip
 title: "BMSIP - BU Bioinformatics Masters Summer Internship Program"
 show_downloads: false
 lsi: false
