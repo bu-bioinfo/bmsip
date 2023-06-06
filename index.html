@@ -14,13 +14,19 @@ layout: default
 						<div class="da-img"></div>
 					</div>
 					-->
-                    {% assign latest = site.news %}
+                    {% assign latest = site.news | where: 'splash', true %}
                     {% for page in latest %}
                     <div class="da-slide">
-                        <h2>{{ page.title }}</h2>
-                        <p><a href="{{ page.url | relative_url }}">{{ page.description }}</a></p>
-                        <div class="da-img"></div>
-                    </div>
+						<div>
+							<h2>{{ page.title }}</h2>
+							<p style="background:#444444CC; padding:10px; border-radius: 5px;">
+								<span style="font-size: large">{{ page.date | date: "%B %-d %Y" }}</span>
+								<br/>
+								<a href="{{ page.url | relative_url }}">{{ page.description }}</a>
+							</p>
+							<div class="da-img"></div>
+						</div>
+					</div>
                     {% endfor %}
 				</div>
 			</div>
