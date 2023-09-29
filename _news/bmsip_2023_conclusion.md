@@ -1,6 +1,6 @@
 ---
 title: BMSIP @ 2023 GSI Research Symposium
-description: Come hear from our interns about some of this year's great projects!
+description: Come hear from our interns about some of this year's great projects at the GSI Annual Research Symposium on November 15th!
 date: 2023-09-10
 layout: post
 splash: true
