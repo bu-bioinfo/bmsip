@@ -1,7 +1,7 @@
 ---
 title: BMSIP 2023 Presents at GSI Research Symposium
 description: Come hear from our interns about some of this year's great projects!
-date: 2023-09-29
+date: 2023-09-10
 layout: post
 splash: true
 ---
