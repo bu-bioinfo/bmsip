@@ -1,6 +1,6 @@
 ---
 title: BMSIP 2024 RFP Is Open!
-description: Proposals for BMSIP 2023 are now being accepted
+description: Proposals for BMSIP 2024 are now being accepted
 date: 2024-01-11
 layout: post
 splash: true
